@@ -1,0 +1,33 @@
+:root {
+  --primary-color: #f00;
+
+  --text-color: rgba(255, 255, 255, 0.87);
+  --background-color: #242424;
+
+
+  --border-color: #ccc;
+  --border-radius: 4px;
+
+  --font-family: 'Roboto', sans-serif;
+  --font-size: 16px;
+
+  --box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  --font-family: 'Inter UI', Inter, Avenir, Helvetica, Arial, sans-serif;
+}
+
+body {
+  background-color: var(--background-color);
+  color: var(--text-color);
+  font-family: var(--font-family);
+  font-size: var(--font-size);
+
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-text-size-adjust: 100%;
+
+  /* native button styling*/
+  color-scheme: dark;
+ 
+}
